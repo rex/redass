@@ -1,0 +1,32 @@
+img.grayed {
+  -webkit-filter: grayscale(1);
+  -moz-filter: grayscale(1);
+  filter: grayscale(1);
+}
+
+.navbar {
+  a.navbar-brand {
+    font-family: $font-heading;
+  }
+}
+
+dl {
+  dt {
+    font-family: $font-heading;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+}
+
+ol.breadcrumb {
+  border: 1px $silver solid;
+  li {
+    a {
+      color: $wet-asphalt;
+    }
+  }
+}
+
+code, pre {
+  font-size: 10px;
+}

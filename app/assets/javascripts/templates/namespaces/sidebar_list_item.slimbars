@@ -1,0 +1,10 @@
+tr data={ namespace: "{{name}}" }
+  td
+    a.sidebar_sub_namespace data={ namespace: "{{name}}" } href="#"
+      | {{name}}
+  td
+    span.badge
+      | {{keys.length}}
+    | &nbsp;&nbsp;
+    a.btn.btn-danger.btn-xs.delete_namespace data={ namespace: "{{name}}" } href="#"
+      span.fa.fa-trash-o

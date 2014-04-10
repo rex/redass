@@ -1,0 +1,26 @@
+<div data-key="{{name}}">
+  <div class="list-group-item">
+    <span class="label label-default">Name</span> {{name}}
+  </div>
+
+  <div class="list-group-item">
+    <span class="label label-default">Type</span> {{type}}
+  </div>
+
+  {{#if isSingle}}
+    <div class="list-group-item">
+      {{value}}
+    </div>
+  {{else}}
+    {{#each value}}
+      <div class="list-group-item">
+        <span class="label label-primary">{{@key}}</span> {{this}}
+      </div>
+    {{/each}}
+  {{/if}}
+
+  <a class="list-group-item list-group-item-danger delete_key" href="#" data-key="{{name}}">
+    <span class="fa fa-trash-o"></span>
+    Delete {{name}}
+  </a>
+</div>

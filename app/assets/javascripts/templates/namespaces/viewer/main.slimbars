@@ -1,0 +1,7 @@
+.panel.panel-default
+  .panel-heading
+    h4.panel-title NAMESPACE KEYS
+  table.table#namespace_viewer_keys
+    tr
+      td
+        | Select a Namespace

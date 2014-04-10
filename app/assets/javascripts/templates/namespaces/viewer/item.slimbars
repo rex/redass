@@ -1,0 +1,7 @@
+tr data={ key: "{{name}}" }
+  td
+    a.namespace_key href="#" data={ key: "{{name}}" } title="View Key: {{name}}"
+      | {{name}}
+  td
+    a.btn.btn-danger.btn-xs.delete_key href="#" data={ key: "{{name}}" } title="Delete Key: {{name}}"
+      span.fa.fa-trash-o

@@ -1,0 +1,117 @@
+/**
+ * Define typography variables
+ */
+$font-body: 'Lato', sans-serif;
+$font-heading: 'Montserrat', sans-serif;
+$font-mono: 'Inconsolata', monospace;
+
+/**
+ * Define the Flat UI color variables
+ */
+$turquoise: #1ABC9C;
+$green-sea: #16A085;
+$emerald: #2ECC71;
+$nephritis: #27AE60;
+$peter-river: #3498DB;
+$belize-hole: #2980B9;
+$amethyst: #9B59B6;
+$wisteria: #8E44AD;
+$wet-asphalt: #34495E;
+$midnight-blue: #2C3E50;
+$sun-flower: #F1C40F;
+$orange: #F39C12;
+$carrot: #E67E22;
+$pumpkin: #D35400;
+$alizarin: #E74C3C;
+$pomegranate: #C0392B;
+$clouds: #ECF0F1;
+$silver: #BDC3C7;
+$concrete: #95A5A6;
+$asbestos: #7F8C8D;
+
+/**
+ * Customize Bootstrap variables before importing the framework
+ */
+$font-family-sans-serif: $font-body;
+$font-family-serif: $font-body;
+$font-family-monospace: $font-mono;
+$body-bg: $clouds;
+$tooltip-bg: $belize-hole;
+$gray-darker: $midnight-blue;
+$gray-dark: $wet-asphalt;
+$gray: $asbestos;
+$gray-light: $concrete;
+$gray-lighter: $silver;
+$brand-primary: $belize-hole;
+$brand-success: $nephritis;
+$brand-info: $green-sea;
+$brand-warning: $orange;
+$brand-danger: $pomegranate;
+$btn-default-bg: $clouds;
+$btn-default-border: $concrete;
+$btn-primary-bg: $peter-river;
+$btn-primary-border: $belize-hole;
+$btn-info-bg: $turquoise;
+$btn-info-border: $green-sea;
+$btn-success-bg: $emerald;
+$btn-success-border: $nephritis;
+$btn-warning-bg: $sun-flower;
+$btn-warning-border: $orange;
+$btn-warning-color: $pumpkin;
+$btn-danger-bg: $alizarin;
+$btn-danger-border: $pomegranate;
+
+$dropdown-bg: $wet-asphalt;
+$dropdown-border: $midnight-blue;
+$dropdown-fallback-border: $midnight-blue;
+$dropdown-divider-bg: $asbestos;
+$dropdown-link-color: $clouds;
+$dropdown-link-hover-color: $clouds;
+$dropdown-link-hover-bg: $belize-hole;
+$dropdown-link-active-color: $clouds;
+$dropdown-link-active-bg: $belize-hole;
+// $dropdown-link-disabled-color:
+// $dropdown-header-color:
+// $dropdown-caret-color:
+
+// $navbar-height:
+// $navbar-margin-bottom:
+$navbar-border-radius: 0px;
+// $navbar-padding-horizontal:
+// $navbar-padding-vertical:
+// $navbar-collapse-max-height:
+$navbar-default-color: $clouds;
+$navbar-default-bg: $wet-asphalt;
+$navbar-default-border: $midnight-blue;
+$navbar-default-link-color: $silver;
+$navbar-default-link-hover-color: $clouds;
+// $navbar-default-link-hover-bg: $asbestos;
+$navbar-default-link-active-color: $clouds;
+// $navbar-default-link-active-bg:
+// $navbar-default-link-disabled-color:
+// $navbar-default-link-disabled-bg:
+$navbar-default-brand-color: $clouds;
+$navbar-default-brand-hover-color: $clouds;
+// $navbar-default-brand-hover-bg:
+// $navbar-default-toggle-hover-bg:
+// $navbar-default-toggle-icon-bar-bg:
+// $navbar-default-toggle-border-color:
+
+$headings-font-family: $font-heading;
+$headings-font-weight: 700;
+$headings-color: $midnight-blue;
+
+$input-bg-disabled: $clouds;
+
+// $breadcrumb-padding-vertical:
+// $breadcrumb-padding-horizontal:
+$breadcrumb-bg: darken($clouds, 10%);
+$breadcrumb-color: $concrete;
+$breadcrumb-active-color: $belize-hole;
+// $breadcrumb-separator: '/';
+
+$jumbotron-padding: 5px;
+$jumbotron-color: $clouds;
+$jumbotron-bg: $belize-hole;
+// $jumbotron-heading-color: $peter-river;
+// $jumbotron-font-size:

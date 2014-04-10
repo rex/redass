@@ -1,0 +1,21 @@
+.row
+  .col-lg-3
+    .panel.panel-default
+      .panel-heading
+        h4.panel-title BACKBONE NAMESPACES
+      table.table#sidebar_namespaces_list
+    .panel.panel-default
+      .panel-heading
+        h4.panel-title SUB NAMESPACES
+      table.table#sidebar_sub_namespaces_list
+  .col-lg-5#namespace_viewer
+
+  .col-lg-4#key_viewer
+/ .row
+/   - @all_keys.in_groups(3, "").each do |group|
+/     .col-lg-4
+/       .panel.panel-default
+/         .list-group
+/           - group.each do |key|
+/             .list-group-item
+/               code = key

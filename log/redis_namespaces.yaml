@@ -1,0 +1,2293 @@
+---
+- :name: aws:regions
+  :keys:
+  - :name: aws:regions:us-east-1:security_groups:zabbix-monitored
+    :type: hash
+    :value:
+      :description: Enables Zabbix monitoring
+      :name: zabbix-monitored
+      :owner_id: '786943564112'
+      :id: sg-442fe121
+      :vpc_id: vpc-196e827c
+  - :name: aws:regions:us-east-1:instances:i-3b760a15
+    :type: hash
+    :value:
+      :ami_launch_index: '1'
+      :api_termination_disabled: 'false'
+      :architecture: x86_64
+      :availability_zone: us-east-1d
+      :client_token: XofhP1392182887675
+      :dns_name: ec2-54-85-46-207.compute-1.amazonaws.com
+      :ebs_optimized: 'false'
+      :hypervisor: xen
+      :iam_instance_profile_arn: ''
+      :iam_instance_profile_id: ''
+      :id: i-3b760a15
+      :image_id: ami-f9373290
+      :instance_initiated_shutdown_behavior: stop
+      :instance_type: c3.2xlarge
+      :ip_address: 54.85.46.207
+      :kernel_id: aki-919dcaf8
+      :key_name: youtoo_us-east
+      :launch_time: 2014-02-12 05:28:08 UTC
+      :monitoring: disabled
+      :name: web-03
+      :owner_id: '786943564112'
+      :platform: ''
+      :private_dns_name: ip-172-31-22-33.ec2.internal
+      :private_ip_address: 172.31.22.33
+      :ramdisk_id: ''
+      :requester_id: ''
+      :reservation_id: r-bbd15395
+      :root_device_name: "/dev/sda1"
+      :root_device_type: ebs
+      :source_dest_check: 'true'
+      :state_transition_reason: ''
+      :status: running
+      :status_code: '16'
+      :subnet_id: subnet-908b8de4
+      :user_data: ''
+      :virtualization_type: paravirtual
+      :vpc?: 'true'
+      :vpc_id: vpc-196e827c
+      :tag:Name: web-03
+      :tag:type: web-server
+  - :name: aws:regions:us-east-1:security_groups:lb-server
+    :type: hash
+    :value:
+      :description: Default security policy for load balancing nodes
+      :name: lb-server
+      :owner_id: '786943564112'
+      :id: sg-5bd31e3e
+      :vpc_id: vpc-196e827c
+  - :name: aws:regions:us-east-1:security_groups:tools/ops-server
+    :type: hash
+    :value:
+      :owner_id: '786943564112'
+      :name: tools/ops-server
+      :description: Base configuration for all team tools, development, and ops servers
+      :id: sg-2174bb44
+      :vpc_id: vpc-196e827c
+  - :name: aws:regions:us-east-1:security_groups:public-load-balancer
+    :type: hash
+    :value:
+      :description: Settings for any internet-facing load balancing nodes
+      :name: public-load-balancer
+      :owner_id: '786943564112'
+      :id: sg-2d63ae48
+      :vpc_id: vpc-196e827c
+  - :name: aws:regions:us-east-1:security_groups:db-server
+    :type: hash
+    :value:
+      :description: Default security policy for database nodes
+      :name: db-server
+      :owner_id: '786943564112'
+      :id: sg-56d31e33
+      :vpc_id: vpc-196e827c
+  - :name: aws:regions:us-east-1:security_groups:default
+    :type: hash
+    :value:
+      :description: default VPC security group
+      :name: default
+      :owner_id: '786943564112'
+      :id: sg-abd61bce
+      :vpc_id: vpc-196e827c
+  - :name: aws:regions:us-east-1:instances:i-b0eb8b9e
+    :type: hash
+    :value:
+      :ami_launch_index: '1'
+      :api_termination_disabled: 'false'
+      :architecture: x86_64
+      :availability_zone: us-east-1d
+      :client_token: lUKVK1391630770018
+      :dns_name: ec2-54-84-84-163.compute-1.amazonaws.com
+      :ebs_optimized: 'false'
+      :hypervisor: xen
+      :iam_instance_profile_arn: ''
+      :iam_instance_profile_id: ''
+      :id: i-b0eb8b9e
+      :image_id: ami-9d81b9f4
+      :instance_initiated_shutdown_behavior: stop
+      :instance_type: c3.2xlarge
+      :ip_address: 54.84.84.163
+      :kernel_id: aki-919dcaf8
+      :key_name: youtoo_us-east
+      :launch_time: 2014-02-05 20:06:10 UTC
+      :monitoring: disabled
+      :name: db-03
+      :owner_id: '786943564112'
+      :platform: ''
+      :private_dns_name: ip-172-31-27-103.ec2.internal
+      :private_ip_address: 172.31.27.103
+      :ramdisk_id: ''
+      :requester_id: ''
+      :reservation_id: r-8bb509a5
+      :root_device_name: "/dev/sda1"
+      :root_device_type: ebs
+      :source_dest_check: 'true'
+      :state_transition_reason: ''
+      :status: running
+      :status_code: '16'
+      :subnet_id: subnet-908b8de4
+      :user_data: ''
+      :virtualization_type: paravirtual
+      :vpc?: 'true'
+      :vpc_id: vpc-196e827c
+      :tag:Name: db-03
+      :tag:type: db-server
+  - :name: aws:regions:us-east-1:instances:i-c3a5c2ed
+    :type: hash
+    :value:
+      :ami_launch_index: '0'
+      :api_termination_disabled: 'false'
+      :architecture: x86_64
+      :availability_zone: us-east-1d
+      :client_token: VqUpy1391549459038
+      :dns_name: ec2-54-85-63-7.compute-1.amazonaws.com
+      :ebs_optimized: 'false'
+      :hypervisor: xen
+      :iam_instance_profile_arn: ''
+      :iam_instance_profile_id: ''
+      :id: i-c3a5c2ed
+      :image_id: ami-bba18dd2
+      :instance_initiated_shutdown_behavior: stop
+      :instance_type: c3.2xlarge
+      :ip_address: 54.85.63.7
+      :kernel_id: aki-919dcaf8
+      :key_name: youtoo_us-east
+      :launch_time: 2014-02-04 21:30:59 UTC
+      :monitoring: disabled
+      :name: web-01
+      :owner_id: '786943564112'
+      :platform: ''
+      :private_dns_name: ip-172-31-19-62.ec2.internal
+      :private_ip_address: 172.31.19.62
+      :ramdisk_id: ''
+      :requester_id: ''
+      :reservation_id: r-81f547af
+      :root_device_name: "/dev/sda1"
+      :root_device_type: ebs
+      :source_dest_check: 'true'
+      :state_transition_reason: ''
+      :status: running
+      :status_code: '16'
+      :subnet_id: subnet-908b8de4
+      :user_data: ''
+      :virtualization_type: paravirtual
+      :vpc?: 'true'
+      :vpc_id: vpc-196e827c
+      :tag:type: web-server
+      :tag:Name: web-01
+  - :name: aws:regions:us-east-1:security_groups:cache-server
+    :type: hash
+    :value:
+      :description: Default security policy for cache nodes
+      :name: cache-server
+      :owner_id: '786943564112'
+      :id: sg-5fd31e3a
+      :vpc_id: vpc-196e827c
+  - :name: aws:regions:us-east-1:instances:i-b3eb8b9d
+    :type: hash
+    :value:
+      :ami_launch_index: '0'
+      :api_termination_disabled: 'false'
+      :architecture: x86_64
+      :availability_zone: us-east-1d
+      :client_token: lUKVK1391630770018
+      :dns_name: ec2-54-84-87-176.compute-1.amazonaws.com
+      :ebs_optimized: 'false'
+      :hypervisor: xen
+      :iam_instance_profile_arn: ''
+      :iam_instance_profile_id: ''
+      :id: i-b3eb8b9d
+      :image_id: ami-9d81b9f4
+      :instance_initiated_shutdown_behavior: stop
+      :instance_type: c3.2xlarge
+      :ip_address: 54.84.87.176
+      :kernel_id: aki-919dcaf8
+      :key_name: youtoo_us-east
+      :launch_time: 2014-02-05 20:06:10 UTC
+      :monitoring: disabled
+      :name: db-02
+      :owner_id: '786943564112'
+      :platform: ''
+      :private_dns_name: ip-172-31-27-104.ec2.internal
+      :private_ip_address: 172.31.27.104
+      :ramdisk_id: ''
+      :requester_id: ''
+      :reservation_id: r-8bb509a5
+      :root_device_name: "/dev/sda1"
+      :root_device_type: ebs
+      :source_dest_check: 'true'
+      :state_transition_reason: ''
+      :status: running
+      :status_code: '16'
+      :subnet_id: subnet-908b8de4
+      :user_data: ''
+      :virtualization_type: paravirtual
+      :vpc?: 'true'
+      :vpc_id: vpc-196e827c
+      :tag:Name: db-02
+      :tag:type: db-server
+  - :name: aws:regions:us-east-1:instances:i-24ebd40a
+    :type: hash
+    :value:
+      :ami_launch_index: '0'
+      :api_termination_disabled: 'true'
+      :architecture: x86_64
+      :availability_zone: us-east-1d
+      :client_token: fLyDO1394039713842
+      :dns_name: ec2-54-85-41-170.compute-1.amazonaws.com
+      :ebs_optimized: 'false'
+      :hypervisor: xen
+      :iam_instance_profile_arn: ''
+      :iam_instance_profile_id: ''
+      :id: i-24ebd40a
+      :image_id: ami-db3416b2
+      :instance_initiated_shutdown_behavior: stop
+      :instance_type: m1.large
+      :ip_address: 54.85.41.170
+      :kernel_id: aki-88aa75e1
+      :key_name: youtoo_us-east
+      :launch_time: 2014-03-05 17:15:14 UTC
+      :monitoring: enabled
+      :name: aspera-01
+      :owner_id: '786943564112'
+      :platform: ''
+      :private_dns_name: ip-172-31-30-3.ec2.internal
+      :private_ip_address: 172.31.30.3
+      :ramdisk_id: ''
+      :requester_id: ''
+      :reservation_id: r-c51566eb
+      :root_device_name: "/dev/sda1"
+      :root_device_type: ebs
+      :source_dest_check: 'true'
+      :state_transition_reason: ''
+      :status: running
+      :status_code: '16'
+      :subnet_id: subnet-908b8de4
+      :user_data: ''
+      :virtualization_type: paravirtual
+      :vpc?: 'true'
+      :vpc_id: vpc-196e827c
+      :elastic_ip: 54.85.41.170
+      :tag:Name: aspera-01
+      :tag:type: transfer
+  - :name: aws:regions:us-east-1:availability_zones
+    :type: set
+    :value:
+    - us-east-1d
+    - us-east-1a
+    - us-east-1c
+  - :name: aws:regions:us-east-1:instances:i-9b106eb5
+    :type: hash
+    :value:
+      :ami_launch_index: '0'
+      :api_termination_disabled: 'true'
+      :architecture: x86_64
+      :availability_zone: us-east-1d
+      :client_token: yjngN1392230332663
+      :dns_name: ec2-54-84-182-70.compute-1.amazonaws.com
+      :ebs_optimized: 'false'
+      :hypervisor: xen
+      :iam_instance_profile_arn: ''
+      :iam_instance_profile_id: ''
+      :id: i-9b106eb5
+      :image_id: ami-e9a18d80
+      :instance_initiated_shutdown_behavior: stop
+      :instance_type: c3.xlarge
+      :ip_address: 54.84.182.70
+      :kernel_id: ''
+      :key_name: youtoo_us-east
+      :launch_time: 2014-02-12 18:38:53 UTC
+      :monitoring: disabled
+      :name: storage-01
+      :owner_id: '786943564112'
+      :platform: ''
+      :private_dns_name: ip-172-31-23-168.ec2.internal
+      :private_ip_address: 172.31.23.168
+      :ramdisk_id: ''
+      :requester_id: ''
+      :reservation_id: r-01a22f2f
+      :root_device_name: "/dev/xvda"
+      :root_device_type: ebs
+      :source_dest_check: 'true'
+      :state_transition_reason: ''
+      :status: running
+      :status_code: '16'
+      :subnet_id: subnet-908b8de4
+      :user_data: ''
+      :virtualization_type: hvm
+      :vpc?: 'true'
+      :vpc_id: vpc-196e827c
+      :tag:type: generic
+      :tag:Name: storage-01
+  - :name: aws:regions:us-east-1:instances:i-34760a1a
+    :type: hash
+    :value:
+      :ami_launch_index: '0'
+      :api_termination_disabled: 'false'
+      :architecture: x86_64
+      :availability_zone: us-east-1d
+      :client_token: XofhP1392182887675
+      :dns_name: ec2-54-85-58-167.compute-1.amazonaws.com
+      :ebs_optimized: 'false'
+      :hypervisor: xen
+      :iam_instance_profile_arn: ''
+      :iam_instance_profile_id: ''
+      :id: i-34760a1a
+      :image_id: ami-f9373290
+      :instance_initiated_shutdown_behavior: stop
+      :instance_type: c3.2xlarge
+      :ip_address: 54.85.58.167
+      :kernel_id: aki-919dcaf8
+      :key_name: youtoo_us-east
+      :launch_time: 2014-02-12 05:28:08 UTC
+      :monitoring: disabled
+      :name: web-04
+      :owner_id: '786943564112'
+      :platform: ''
+      :private_dns_name: ip-172-31-22-32.ec2.internal
+      :private_ip_address: 172.31.22.32
+      :ramdisk_id: ''
+      :requester_id: ''
+      :reservation_id: r-bbd15395
+      :root_device_name: "/dev/sda1"
+      :root_device_type: ebs
+      :source_dest_check: 'true'
+      :state_transition_reason: ''
+      :status: running
+      :status_code: '16'
+      :subnet_id: subnet-908b8de4
+      :user_data: ''
+      :virtualization_type: paravirtual
+      :vpc?: 'true'
+      :vpc_id: vpc-196e827c
+      :tag:Name: web-04
+      :tag:type: web-server
+  - :name: aws:regions:us-east-1:availability_zones:us-east-1d:instances
+    :type: set
+    :value:
+    - i-e62852c8
+    - i-3b760a15
+    - i-fe5a06d0
+    - i-3cfbc012
+    - i-01fe9f2f
+    - i-34760a1a
+    - i-03063d2d
+    - i-e4c3a2ca
+    - i-07cbaa29
+    - i-24ebd40a
+    - i-b3eb8b9d
+    - i-3a760a14
+    - i-9b106eb5
+    - i-c3a5c2ed
+    - i-c35a06ed
+    - i-ff5a06d1
+    - i-4bc6a765
+    - i-b0eb8b9e
+  - :name: aws:regions:us-east-1:instances:i-c35a06ed
+    :type: hash
+    :value:
+      :ami_launch_index: '2'
+      :api_termination_disabled: 'false'
+      :architecture: x86_64
+      :availability_zone: us-east-1d
+      :client_token: LnaIp1392918442146
+      :dns_name: ec2-54-84-237-150.compute-1.amazonaws.com
+      :ebs_optimized: 'false'
+      :hypervisor: xen
+      :iam_instance_profile_arn: ''
+      :iam_instance_profile_id: ''
+      :id: i-c35a06ed
+      :image_id: ami-c1f1f4a8
+      :instance_initiated_shutdown_behavior: stop
+      :instance_type: c3.large
+      :ip_address: 54.84.237.150
+      :kernel_id: ''
+      :key_name: youtoo_us-east
+      :launch_time: 2014-02-20 18:51:33 UTC
+      :monitoring: disabled
+      :name: db-04
+      :owner_id: '786943564112'
+      :platform: ''
+      :private_dns_name: ip-172-31-23-50.ec2.internal
+      :private_ip_address: 172.31.23.50
+      :ramdisk_id: ''
+      :requester_id: ''
+      :reservation_id: r-4842da66
+      :root_device_name: "/dev/xvda"
+      :root_device_type: ebs
+      :source_dest_check: 'true'
+      :state_transition_reason: ''
+      :status: running
+      :status_code: '16'
+      :subnet_id: subnet-908b8de4
+      :user_data: ''
+      :virtualization_type: hvm
+      :vpc?: 'true'
+      :vpc_id: vpc-196e827c
+      :tag:type: development-server
+      :tag:Name: db-04
+  - :name: aws:regions:us-east-1:security_groups:serverdensity-monitored
+    :type: hash
+    :value:
+      :description: Allows all serverdensity monitoring locations to access ports
+      :name: serverdensity-monitored
+      :owner_id: '786943564112'
+      :id: sg-f75f9792
+      :vpc_id: vpc-196e827c
+  - :name: aws:regions:us-east-1:instances:i-07cbaa29
+    :type: hash
+    :value:
+      :ami_launch_index: '0'
+      :api_termination_disabled: 'true'
+      :architecture: x86_64
+      :availability_zone: us-east-1d
+      :client_token: uKogA1391607624065
+      :dns_name: ec2-54-84-74-198.compute-1.amazonaws.com
+      :ebs_optimized: 'false'
+      :hypervisor: xen
+      :iam_instance_profile_arn: ''
+      :iam_instance_profile_id: ''
+      :id: i-07cbaa29
+      :image_id: ami-bba18dd2
+      :instance_initiated_shutdown_behavior: stop
+      :instance_type: c3.2xlarge
+      :ip_address: 54.84.74.198
+      :kernel_id: aki-919dcaf8
+      :key_name: youtoo_us-east
+      :launch_time: 2014-02-05 13:40:25 UTC
+      :monitoring: disabled
+      :name: lb-01
+      :owner_id: '786943564112'
+      :platform: ''
+      :private_dns_name: ip-172-31-30-19.ec2.internal
+      :private_ip_address: 172.31.30.19
+      :ramdisk_id: ''
+      :requester_id: ''
+      :reservation_id: r-1151ec3f
+      :root_device_name: "/dev/sda1"
+      :root_device_type: ebs
+      :source_dest_check: 'true'
+      :state_transition_reason: ''
+      :status: running
+      :status_code: '16'
+      :subnet_id: subnet-908b8de4
+      :user_data: ''
+      :virtualization_type: paravirtual
+      :vpc?: 'true'
+      :vpc_id: vpc-196e827c
+      :tag:type: load-balancing-server
+      :tag:Name: lb-01
+  - :name: aws:regions:us-east-1:instances:i-4bc6a765
+    :type: hash
+    :value:
+      :ami_launch_index: '0'
+      :api_termination_disabled: 'true'
+      :architecture: x86_64
+      :availability_zone: us-east-1d
+      :client_token: PneCY1391607460718
+      :dns_name: ec2-54-84-42-155.compute-1.amazonaws.com
+      :ebs_optimized: 'false'
+      :hypervisor: xen
+      :iam_instance_profile_arn: ''
+      :iam_instance_profile_id: ''
+      :id: i-4bc6a765
+      :image_id: ami-bba18dd2
+      :instance_initiated_shutdown_behavior: stop
+      :instance_type: c3.2xlarge
+      :ip_address: 54.84.42.155
+      :kernel_id: aki-919dcaf8
+      :key_name: youtoo_us-east
+      :launch_time: 2014-02-05 13:37:41 UTC
+      :monitoring: disabled
+      :name: cache-01
+      :owner_id: '786943564112'
+      :platform: ''
+      :private_dns_name: ip-172-31-17-131.ec2.internal
+      :private_ip_address: 172.31.17.131
+      :ramdisk_id: ''
+      :requester_id: ''
+      :reservation_id: r-9951ecb7
+      :root_device_name: "/dev/sda1"
+      :root_device_type: ebs
+      :source_dest_check: 'true'
+      :state_transition_reason: ''
+      :status: running
+      :status_code: '16'
+      :subnet_id: subnet-908b8de4
+      :user_data: ''
+      :virtualization_type: paravirtual
+      :vpc?: 'true'
+      :vpc_id: vpc-196e827c
+      :tag:Name: cache-01
+      :tag:type: cache-server
+  - :name: aws:regions:us-east-1:instances:i-e62852c8
+    :type: hash
+    :value:
+      :ami_launch_index: '0'
+      :api_termination_disabled: 'true'
+      :architecture: x86_64
+      :availability_zone: us-east-1d
+      :client_token: ALywZ1392328497345
+      :dns_name: ec2-54-84-189-252.compute-1.amazonaws.com
+      :ebs_optimized: 'false'
+      :hypervisor: xen
+      :iam_instance_profile_arn: ''
+      :iam_instance_profile_id: ''
+      :id: i-e62852c8
+      :image_id: ami-59707430
+      :instance_initiated_shutdown_behavior: stop
+      :instance_type: c3.8xlarge
+      :ip_address: 54.84.189.252
+      :kernel_id: ''
+      :key_name: youtoo_us-east
+      :launch_time: 2014-02-13 21:54:58 UTC
+      :monitoring: enabled
+      :name: lb-04
+      :owner_id: '786943564112'
+      :platform: ''
+      :private_dns_name: ip-172-31-22-150.ec2.internal
+      :private_ip_address: 172.31.22.150
+      :ramdisk_id: ''
+      :requester_id: ''
+      :reservation_id: r-c6e26ce8
+      :root_device_name: "/dev/xvda"
+      :root_device_type: ebs
+      :source_dest_check: 'true'
+      :state_transition_reason: ''
+      :status: running
+      :status_code: '16'
+      :subnet_id: subnet-908b8de4
+      :user_data: ''
+      :virtualization_type: hvm
+      :vpc?: 'true'
+      :vpc_id: vpc-196e827c
+      :tag:type: load-balancing-server
+      :tag:Name: lb-04
+  - :name: aws:regions:us-east-1:instances
+    :type: set
+    :value:
+    - i-e62852c8
+    - i-3b760a15
+    - i-fe5a06d0
+    - i-3cfbc012
+    - i-01fe9f2f
+    - i-34760a1a
+    - i-03063d2d
+    - i-e4c3a2ca
+    - i-07cbaa29
+    - i-24ebd40a
+    - i-b3eb8b9d
+    - i-3a760a14
+    - i-9b106eb5
+    - i-c3a5c2ed
+    - i-c35a06ed
+    - i-ff5a06d1
+    - i-4bc6a765
+    - i-b0eb8b9e
+  - :name: aws:regions:us-east-1:instances:i-ff5a06d1
+    :type: hash
+    :value:
+      :ami_launch_index: '1'
+      :api_termination_disabled: 'false'
+      :architecture: x86_64
+      :availability_zone: us-east-1d
+      :client_token: LnaIp1392918442146
+      :dns_name: ec2-54-84-219-215.compute-1.amazonaws.com
+      :ebs_optimized: 'false'
+      :hypervisor: xen
+      :iam_instance_profile_arn: ''
+      :iam_instance_profile_id: ''
+      :id: i-ff5a06d1
+      :image_id: ami-c1f1f4a8
+      :instance_initiated_shutdown_behavior: stop
+      :instance_type: c3.large
+      :ip_address: 54.84.219.215
+      :kernel_id: ''
+      :key_name: youtoo_us-east
+      :launch_time: 2014-02-20 18:51:33 UTC
+      :monitoring: disabled
+      :name: staging-01
+      :owner_id: '786943564112'
+      :platform: ''
+      :private_dns_name: ip-172-31-23-52.ec2.internal
+      :private_ip_address: 172.31.23.52
+      :ramdisk_id: ''
+      :requester_id: ''
+      :reservation_id: r-4842da66
+      :root_device_name: "/dev/xvda"
+      :root_device_type: ebs
+      :source_dest_check: 'true'
+      :state_transition_reason: ''
+      :status: running
+      :status_code: '16'
+      :subnet_id: subnet-908b8de4
+      :user_data: ''
+      :virtualization_type: hvm
+      :vpc?: 'true'
+      :vpc_id: vpc-196e827c
+      :tag:Name: staging-01
+      :tag:type: development-server
+  - :name: aws:regions:us-east-1:availability_zones:us-east-1a
+    :type: hash
+    :value:
+      :region: us-east-1
+      :state: available
+      :messages: "{\"data\":[]}"
+  - :name: aws:regions:us-east-1:availability_zones:us-east-1c
+    :type: hash
+    :value:
+      :region: us-east-1
+      :state: available
+      :messages: "{\"data\":[]}"
+  - :name: aws:regions:us-east-1:instances:i-3a760a14
+    :type: hash
+    :value:
+      :ami_launch_index: '2'
+      :api_termination_disabled: 'false'
+      :architecture: x86_64
+      :availability_zone: us-east-1d
+      :client_token: XofhP1392182887675
+      :dns_name: ec2-54-85-34-43.compute-1.amazonaws.com
+      :ebs_optimized: 'false'
+      :hypervisor: xen
+      :iam_instance_profile_arn: ''
+      :iam_instance_profile_id: ''
+      :id: i-3a760a14
+      :image_id: ami-f9373290
+      :instance_initiated_shutdown_behavior: stop
+      :instance_type: c3.2xlarge
+      :ip_address: 54.85.34.43
+      :kernel_id: aki-919dcaf8
+      :key_name: youtoo_us-east
+      :launch_time: 2014-02-12 05:28:08 UTC
+      :monitoring: disabled
+      :name: web-02
+      :owner_id: '786943564112'
+      :platform: ''
+      :private_dns_name: ip-172-31-22-31.ec2.internal
+      :private_ip_address: 172.31.22.31
+      :ramdisk_id: ''
+      :requester_id: ''
+      :reservation_id: r-bbd15395
+      :root_device_name: "/dev/sda1"
+      :root_device_type: ebs
+      :source_dest_check: 'true'
+      :state_transition_reason: ''
+      :status: running
+      :status_code: '16'
+      :subnet_id: subnet-908b8de4
+      :user_data: ''
+      :virtualization_type: paravirtual
+      :vpc?: 'true'
+      :vpc_id: vpc-196e827c
+      :tag:Name: web-02
+      :tag:type: web-server
+  - :name: aws:regions:us-east-1:instances:i-3cfbc012
+    :type: hash
+    :value:
+      :ami_launch_index: '0'
+      :api_termination_disabled: 'true'
+      :architecture: x86_64
+      :availability_zone: us-east-1d
+      :client_token: pjNTt1394151838618
+      :dns_name: ec2-54-85-69-18.compute-1.amazonaws.com
+      :ebs_optimized: 'false'
+      :hypervisor: xen
+      :iam_instance_profile_arn: ''
+      :iam_instance_profile_id: ''
+      :id: i-3cfbc012
+      :image_id: ami-c1f1f4a8
+      :instance_initiated_shutdown_behavior: stop
+      :instance_type: c3.2xlarge
+      :ip_address: 54.85.69.18
+      :kernel_id: ''
+      :key_name: youtoo_us-east
+      :launch_time: 2014-03-07 00:23:59 UTC
+      :monitoring: enabled
+      :name: worker-01
+      :owner_id: '786943564112'
+      :platform: ''
+      :private_dns_name: ip-172-31-24-168.ec2.internal
+      :private_ip_address: 172.31.24.168
+      :ramdisk_id: ''
+      :requester_id: ''
+      :reservation_id: r-0035492e
+      :root_device_name: "/dev/xvda"
+      :root_device_type: ebs
+      :source_dest_check: 'true'
+      :state_transition_reason: ''
+      :status: running
+      :status_code: '16'
+      :subnet_id: subnet-908b8de4
+      :user_data: ''
+      :virtualization_type: hvm
+      :vpc?: 'true'
+      :vpc_id: vpc-196e827c
+      :tag:Name: worker-01
+  - :name: aws:regions:us-east-1:instances:i-fe5a06d0
+    :type: hash
+    :value:
+      :ami_launch_index: '0'
+      :api_termination_disabled: 'false'
+      :architecture: x86_64
+      :availability_zone: us-east-1d
+      :client_token: LnaIp1392918442146
+      :dns_name: ec2-54-84-237-146.compute-1.amazonaws.com
+      :ebs_optimized: 'false'
+      :hypervisor: xen
+      :iam_instance_profile_arn: ''
+      :iam_instance_profile_id: ''
+      :id: i-fe5a06d0
+      :image_id: ami-c1f1f4a8
+      :instance_initiated_shutdown_behavior: stop
+      :instance_type: c3.large
+      :ip_address: 54.84.237.146
+      :kernel_id: ''
+      :key_name: youtoo_us-east
+      :launch_time: 2014-02-20 18:51:33 UTC
+      :monitoring: disabled
+      :name: dev-01
+      :owner_id: '786943564112'
+      :platform: ''
+      :private_dns_name: ip-172-31-23-51.ec2.internal
+      :private_ip_address: 172.31.23.51
+      :ramdisk_id: ''
+      :requester_id: ''
+      :reservation_id: r-4842da66
+      :root_device_name: "/dev/xvda"
+      :root_device_type: ebs
+      :source_dest_check: 'true'
+      :state_transition_reason: ''
+      :status: running
+      :status_code: '16'
+      :subnet_id: subnet-908b8de4
+      :user_data: ''
+      :virtualization_type: hvm
+      :vpc?: 'true'
+      :vpc_id: vpc-196e827c
+      :tag:Name: dev-01
+      :tag:type: development-server
+  - :name: aws:regions:us-east-1:instances:i-e4c3a2ca
+    :type: hash
+    :value:
+      :ami_launch_index: '0'
+      :api_termination_disabled: 'true'
+      :architecture: x86_64
+      :availability_zone: us-east-1d
+      :client_token: xwKrP1391607801746
+      :dns_name: ec2-54-84-73-13.compute-1.amazonaws.com
+      :ebs_optimized: 'false'
+      :hypervisor: xen
+      :iam_instance_profile_arn: ''
+      :iam_instance_profile_id: ''
+      :id: i-e4c3a2ca
+      :image_id: ami-bba18dd2
+      :instance_initiated_shutdown_behavior: stop
+      :instance_type: c3.2xlarge
+      :ip_address: 54.84.73.13
+      :kernel_id: aki-919dcaf8
+      :key_name: youtoo_us-east
+      :launch_time: 2014-02-05 13:43:22 UTC
+      :monitoring: disabled
+      :name: tools-01
+      :owner_id: '786943564112'
+      :platform: ''
+      :private_dns_name: ip-172-31-21-95.ec2.internal
+      :private_ip_address: 172.31.21.95
+      :ramdisk_id: ''
+      :requester_id: ''
+      :reservation_id: r-2d5be603
+      :root_device_name: "/dev/sda1"
+      :root_device_type: ebs
+      :source_dest_check: 'true'
+      :state_transition_reason: ''
+      :status: running
+      :status_code: '16'
+      :subnet_id: subnet-908b8de4
+      :user_data: ''
+      :virtualization_type: paravirtual
+      :vpc?: 'true'
+      :vpc_id: vpc-196e827c
+      :tag:type: team-server
+      :tag:Name: tools-01
+  - :name: aws:regions:us-east-1:security_groups
+    :type: set
+    :value:
+    - tools/ops-server
+    - web-server
+    - default
+    - aspera
+    - db-server
+    - zabbix-monitored
+    - cache-server
+    - public-load-balancer
+    - serverdensity-monitored
+    - lb-server
+  - :name: aws:regions:us-east-1:instances:i-01fe9f2f
+    :type: hash
+    :value:
+      :ami_launch_index: '0'
+      :api_termination_disabled: 'true'
+      :architecture: x86_64
+      :availability_zone: us-east-1d
+      :client_token: BaXdc1391607298476
+      :dns_name: ec2-54-84-27-228.compute-1.amazonaws.com
+      :ebs_optimized: 'false'
+      :hypervisor: xen
+      :iam_instance_profile_arn: ''
+      :iam_instance_profile_id: ''
+      :id: i-01fe9f2f
+      :image_id: ami-bba18dd2
+      :instance_initiated_shutdown_behavior: stop
+      :instance_type: c3.2xlarge
+      :ip_address: 54.84.27.228
+      :kernel_id: aki-919dcaf8
+      :key_name: youtoo_us-east
+      :launch_time: 2014-02-05 13:34:59 UTC
+      :monitoring: disabled
+      :name: db-01
+      :owner_id: '786943564112'
+      :platform: ''
+      :private_dns_name: ip-172-31-17-100.ec2.internal
+      :private_ip_address: 172.31.17.100
+      :ramdisk_id: ''
+      :requester_id: ''
+      :reservation_id: r-c65fe2e8
+      :root_device_name: "/dev/sda1"
+      :root_device_type: ebs
+      :source_dest_check: 'true'
+      :state_transition_reason: ''
+      :status: running
+      :status_code: '16'
+      :subnet_id: subnet-908b8de4
+      :user_data: ''
+      :virtualization_type: paravirtual
+      :vpc?: 'true'
+      :vpc_id: vpc-196e827c
+      :tag:Name: db-01
+      :tag:type: db-server
+  - :name: aws:regions:us-east-1:security_groups:aspera
+    :type: hash
+    :value:
+      :description: Security configuration for aspera servers
+      :name: aspera
+      :owner_id: '786943564112'
+      :id: sg-3bcd125e
+      :vpc_id: vpc-196e827c
+  - :name: aws:regions:us-east-1:availability_zones:us-east-1d
+    :type: hash
+    :value:
+      :region: us-east-1
+      :state: available
+      :messages: "{\"data\":[]}"
+  - :name: aws:regions:us-east-1:instances:i-03063d2d
+    :type: hash
+    :value:
+      :ami_launch_index: '0'
+      :api_termination_disabled: 'true'
+      :architecture: x86_64
+      :availability_zone: us-east-1d
+      :client_token: cYDYZ1394151575984
+      :dns_name: ec2-54-85-73-4.compute-1.amazonaws.com
+      :ebs_optimized: 'false'
+      :hypervisor: xen
+      :iam_instance_profile_arn: ''
+      :iam_instance_profile_id: ''
+      :id: i-03063d2d
+      :image_id: ami-c1f1f4a8
+      :instance_initiated_shutdown_behavior: stop
+      :instance_type: c3.xlarge
+      :ip_address: 54.85.73.4
+      :kernel_id: ''
+      :key_name: youtoo_us-east
+      :launch_time: 2014-03-07 00:19:37 UTC
+      :monitoring: enabled
+      :name: queue-01
+      :owner_id: '786943564112'
+      :platform: ''
+      :private_dns_name: ip-172-31-31-170.ec2.internal
+      :private_ip_address: 172.31.31.170
+      :ramdisk_id: ''
+      :requester_id: ''
+      :reservation_id: r-013a462f
+      :root_device_name: "/dev/xvda"
+      :root_device_type: ebs
+      :source_dest_check: 'true'
+      :state_transition_reason: ''
+      :status: running
+      :status_code: '16'
+      :subnet_id: subnet-908b8de4
+      :user_data: ''
+      :virtualization_type: hvm
+      :vpc?: 'true'
+      :vpc_id: vpc-196e827c
+      :tag:Name: queue-01
+      :tag:type: queue / master
+  - :name: aws:regions:us-east-1:security_groups:web-server
+    :type: hash
+    :value:
+      :description: Default security policy for web nodes
+      :name: web-server
+      :owner_id: '786943564112'
+      :id: sg-4bd31e2e
+      :vpc_id: vpc-196e827c
+- :name: aws:instances
+  :keys:
+  - :name: aws:instances:i-c3a5c2ed:block_devices
+    :type: set
+    :value:
+    - "/dev/sdf"
+    - "/dev/sda1"
+  - :name: aws:instances:i-80bcac89:block_devices:/dev/sdd
+    :type: hash
+    :value:
+      :device_name: "/dev/sdd"
+      :type: ebs
+      :volume_id: vol-6eb7a06c
+      :status: attached
+      :attach_time: 2014-03-05 22:03:47 UTC
+      :delete_on_termination: 'false'
+  - :name: aws:instances:i-3cfbc012:block_devices
+    :type: set
+    :value:
+    - "/dev/xvda"
+  - :name: aws:instances:i-3cfbc012
+    :type: hash
+    :value:
+      :ami_launch_index: '0'
+      :api_termination_disabled: 'true'
+      :architecture: x86_64
+      :availability_zone: us-east-1d
+      :client_token: pjNTt1394151838618
+      :dns_name: ec2-54-85-69-18.compute-1.amazonaws.com
+      :ebs_optimized: 'false'
+      :hypervisor: xen
+      :iam_instance_profile_arn: ''
+      :iam_instance_profile_id: ''
+      :id: i-3cfbc012
+      :image_id: ami-c1f1f4a8
+      :instance_initiated_shutdown_behavior: stop
+      :instance_type: c3.2xlarge
+      :ip_address: 54.85.69.18
+      :kernel_id: ''
+      :key_name: youtoo_us-east
+      :launch_time: 2014-03-07 00:23:59 UTC
+      :monitoring: enabled
+      :name: worker-01
+      :owner_id: '786943564112'
+      :platform: ''
+      :private_dns_name: ip-172-31-24-168.ec2.internal
+      :private_ip_address: 172.31.24.168
+      :ramdisk_id: ''
+      :requester_id: ''
+      :reservation_id: r-0035492e
+      :root_device_name: "/dev/xvda"
+      :root_device_type: ebs
+      :source_dest_check: 'true'
+      :state_transition_reason: ''
+      :status: running
+      :status_code: '16'
+      :subnet_id: subnet-908b8de4
+      :user_data: ''
+      :virtualization_type: hvm
+      :vpc?: 'true'
+      :vpc_id: vpc-196e827c
+      :tag:Name: worker-01
+  - :name: aws:instances:i-4bc6a765:tags:type
+    :type: string
+    :value: cache-server
+  - :name: aws:instances:i-ff5a06d1:tags:Name
+    :type: string
+    :value: staging-01
+  - :name: aws:instances:i-3cfbc012:tags
+    :type: set
+    :value:
+    - Name
+  - :name: aws:instances:i-4bc6a765:tags
+    :type: set
+    :value:
+    - type
+    - Name
+  - :name: aws:instances:i-34760a1a
+    :type: hash
+    :value:
+      :ami_launch_index: '0'
+      :api_termination_disabled: 'false'
+      :architecture: x86_64
+      :availability_zone: us-east-1d
+      :client_token: XofhP1392182887675
+      :dns_name: ec2-54-85-58-167.compute-1.amazonaws.com
+      :ebs_optimized: 'false'
+      :hypervisor: xen
+      :iam_instance_profile_arn: ''
+      :iam_instance_profile_id: ''
+      :id: i-34760a1a
+      :image_id: ami-f9373290
+      :instance_initiated_shutdown_behavior: stop
+      :instance_type: c3.2xlarge
+      :ip_address: 54.85.58.167
+      :kernel_id: aki-919dcaf8
+      :key_name: youtoo_us-east
+      :launch_time: 2014-02-12 05:28:08 UTC
+      :monitoring: disabled
+      :name: web-04
+      :owner_id: '786943564112'
+      :platform: ''
+      :private_dns_name: ip-172-31-22-32.ec2.internal
+      :private_ip_address: 172.31.22.32
+      :ramdisk_id: ''
+      :requester_id: ''
+      :reservation_id: r-bbd15395
+      :root_device_name: "/dev/sda1"
+      :root_device_type: ebs
+      :source_dest_check: 'true'
+      :state_transition_reason: ''
+      :status: running
+      :status_code: '16'
+      :subnet_id: subnet-908b8de4
+      :user_data: ''
+      :virtualization_type: paravirtual
+      :vpc?: 'true'
+      :vpc_id: vpc-196e827c
+      :tag:Name: web-04
+      :tag:type: web-server
+  - :name: aws:instances:i-c35a06ed:block_devices
+    :type: set
+    :value:
+    - "/dev/xvda"
+  - :name: aws:instances:i-03063d2d:tags
+    :type: set
+    :value:
+    - type
+    - Name
+  - :name: aws:instances:i-e62852c8:tags:type
+    :type: string
+    :value: load-balancing-server
+  - :name: aws:instances:i-9b106eb5
+    :type: hash
+    :value:
+      :ami_launch_index: '0'
+      :api_termination_disabled: 'true'
+      :architecture: x86_64
+      :availability_zone: us-east-1d
+      :client_token: yjngN1392230332663
+      :dns_name: ec2-54-84-182-70.compute-1.amazonaws.com
+      :ebs_optimized: 'false'
+      :hypervisor: xen
+      :iam_instance_profile_arn: ''
+      :iam_instance_profile_id: ''
+      :id: i-9b106eb5
+      :image_id: ami-e9a18d80
+      :instance_initiated_shutdown_behavior: stop
+      :instance_type: c3.xlarge
+      :ip_address: 54.84.182.70
+      :kernel_id: ''
+      :key_name: youtoo_us-east
+      :launch_time: 2014-02-12 18:38:53 UTC
+      :monitoring: disabled
+      :name: storage-01
+      :owner_id: '786943564112'
+      :platform: ''
+      :private_dns_name: ip-172-31-23-168.ec2.internal
+      :private_ip_address: 172.31.23.168
+      :ramdisk_id: ''
+      :requester_id: ''
+      :reservation_id: r-01a22f2f
+      :root_device_name: "/dev/xvda"
+      :root_device_type: ebs
+      :source_dest_check: 'true'
+      :state_transition_reason: ''
+      :status: running
+      :status_code: '16'
+      :subnet_id: subnet-908b8de4
+      :user_data: ''
+      :virtualization_type: hvm
+      :vpc?: 'true'
+      :vpc_id: vpc-196e827c
+      :tag:type: generic
+      :tag:Name: storage-01
+  - :name: aws:instances:i-4bc6a765
+    :type: hash
+    :value:
+      :ami_launch_index: '0'
+      :api_termination_disabled: 'true'
+      :architecture: x86_64
+      :availability_zone: us-east-1d
+      :client_token: PneCY1391607460718
+      :dns_name: ec2-54-84-42-155.compute-1.amazonaws.com
+      :ebs_optimized: 'false'
+      :hypervisor: xen
+      :iam_instance_profile_arn: ''
+      :iam_instance_profile_id: ''
+      :id: i-4bc6a765
+      :image_id: ami-bba18dd2
+      :instance_initiated_shutdown_behavior: stop
+      :instance_type: c3.2xlarge
+      :ip_address: 54.84.42.155
+      :kernel_id: aki-919dcaf8
+      :key_name: youtoo_us-east
+      :launch_time: 2014-02-05 13:37:41 UTC
+      :monitoring: disabled
+      :name: cache-01
+      :owner_id: '786943564112'
+      :platform: ''
+      :private_dns_name: ip-172-31-17-131.ec2.internal
+      :private_ip_address: 172.31.17.131
+      :ramdisk_id: ''
+      :requester_id: ''
+      :reservation_id: r-9951ecb7
+      :root_device_name: "/dev/sda1"
+      :root_device_type: ebs
+      :source_dest_check: 'true'
+      :state_transition_reason: ''
+      :status: running
+      :status_code: '16'
+      :subnet_id: subnet-908b8de4
+      :user_data: ''
+      :virtualization_type: paravirtual
+      :vpc?: 'true'
+      :vpc_id: vpc-196e827c
+      :tag:Name: cache-01
+      :tag:type: cache-server
+  - :name: aws:instances:i-24ebd40a:block_devices:/dev/sdd
+    :type: hash
+    :value:
+      :device_name: "/dev/sdd"
+      :type: ebs
+      :volume_id: vol-d1563aa7
+      :status: attached
+      :attach_time: 2014-03-05 17:15:17 UTC
+      :delete_on_termination: 'false'
+  - :name: aws:instances:i-3b760a15
+    :type: hash
+    :value:
+      :ami_launch_index: '1'
+      :api_termination_disabled: 'false'
+      :architecture: x86_64
+      :availability_zone: us-east-1d
+      :client_token: XofhP1392182887675
+      :dns_name: ec2-54-85-46-207.compute-1.amazonaws.com
+      :ebs_optimized: 'false'
+      :hypervisor: xen
+      :iam_instance_profile_arn: ''
+      :iam_instance_profile_id: ''
+      :id: i-3b760a15
+      :image_id: ami-f9373290
+      :instance_initiated_shutdown_behavior: stop
+      :instance_type: c3.2xlarge
+      :ip_address: 54.85.46.207
+      :kernel_id: aki-919dcaf8
+      :key_name: youtoo_us-east
+      :launch_time: 2014-02-12 05:28:08 UTC
+      :monitoring: disabled
+      :name: web-03
+      :owner_id: '786943564112'
+      :platform: ''
+      :private_dns_name: ip-172-31-22-33.ec2.internal
+      :private_ip_address: 172.31.22.33
+      :ramdisk_id: ''
+      :requester_id: ''
+      :reservation_id: r-bbd15395
+      :root_device_name: "/dev/sda1"
+      :root_device_type: ebs
+      :source_dest_check: 'true'
+      :state_transition_reason: ''
+      :status: running
+      :status_code: '16'
+      :subnet_id: subnet-908b8de4
+      :user_data: ''
+      :virtualization_type: paravirtual
+      :vpc?: 'true'
+      :vpc_id: vpc-196e827c
+      :tag:Name: web-03
+      :tag:type: web-server
+  - :name: aws:instances:i-01fe9f2f
+    :type: hash
+    :value:
+      :ami_launch_index: '0'
+      :api_termination_disabled: 'true'
+      :architecture: x86_64
+      :availability_zone: us-east-1d
+      :client_token: BaXdc1391607298476
+      :dns_name: ec2-54-84-27-228.compute-1.amazonaws.com
+      :ebs_optimized: 'false'
+      :hypervisor: xen
+      :iam_instance_profile_arn: ''
+      :iam_instance_profile_id: ''
+      :id: i-01fe9f2f
+      :image_id: ami-bba18dd2
+      :instance_initiated_shutdown_behavior: stop
+      :instance_type: c3.2xlarge
+      :ip_address: 54.84.27.228
+      :kernel_id: aki-919dcaf8
+      :key_name: youtoo_us-east
+      :launch_time: 2014-02-05 13:34:59 UTC
+      :monitoring: disabled
+      :name: db-01
+      :owner_id: '786943564112'
+      :platform: ''
+      :private_dns_name: ip-172-31-17-100.ec2.internal
+      :private_ip_address: 172.31.17.100
+      :ramdisk_id: ''
+      :requester_id: ''
+      :reservation_id: r-c65fe2e8
+      :root_device_name: "/dev/sda1"
+      :root_device_type: ebs
+      :source_dest_check: 'true'
+      :state_transition_reason: ''
+      :status: running
+      :status_code: '16'
+      :subnet_id: subnet-908b8de4
+      :user_data: ''
+      :virtualization_type: paravirtual
+      :vpc?: 'true'
+      :vpc_id: vpc-196e827c
+      :tag:Name: db-01
+      :tag:type: db-server
+  - :name: aws:instances:i-e4c3a2ca:tags:type
+    :type: string
+    :value: team-server
+  - :name: aws:instances:i-e4c3a2ca:tags
+    :type: set
+    :value:
+    - type
+    - Name
+  - :name: aws:instances:i-34760a1a:block_devices:/dev/sda1
+    :type: hash
+    :value:
+      :device_name: "/dev/sda1"
+      :type: ebs
+      :volume_id: vol-330db445
+      :status: attached
+      :attach_time: 2014-02-12 05:28:12 UTC
+      :delete_on_termination: 'true'
+  - :name: aws:instances:i-c35a06ed:tags
+    :type: set
+    :value:
+    - type
+    - Name
+  - :name: aws:instances:i-03063d2d:block_devices:/dev/xvda
+    :type: hash
+    :value:
+      :device_name: "/dev/xvda"
+      :type: ebs
+      :volume_id: vol-b57d14c3
+      :status: attached
+      :attach_time: 2014-03-07 00:19:39 UTC
+      :delete_on_termination: 'true'
+  - :name: aws:instances:i-3b760a15:tags
+    :type: set
+    :value:
+    - type
+    - Name
+  - :name: aws:instances:i-e62852c8:block_devices:/dev/xvda
+    :type: hash
+    :value:
+      :device_name: "/dev/xvda"
+      :type: ebs
+      :volume_id: vol-78c5410e
+      :status: attached
+      :attach_time: 2014-02-13 21:55:06 UTC
+      :delete_on_termination: 'true'
+  - :name: aws:instances:i-01fe9f2f:tags:Name
+    :type: string
+    :value: db-01
+  - :name: aws:instances:i-34760a1a:tags:Name
+    :type: string
+    :value: web-04
+  - :name: aws:instances:i-e4c3a2ca:block_devices
+    :type: set
+    :value:
+    - "/dev/sdf"
+    - "/dev/sda1"
+  - :name: aws:instances:i-fe5a06d0:block_devices:/dev/xvda
+    :type: hash
+    :value:
+      :device_name: "/dev/xvda"
+      :type: ebs
+      :volume_id: vol-04a03772
+      :status: attached
+      :attach_time: 2014-02-20 18:51:12 UTC
+      :delete_on_termination: 'false'
+  - :name: aws:instances:i-80bcac89:tags:Name
+    :type: string
+    :value: storage-02
+  - :name: aws:instances:i-80bcac89:tags:type
+    :type: string
+    :value: storage
+  - :name: aws:instances:i-fe5a06d0:tags
+    :type: set
+    :value:
+    - type
+    - Name
+  - :name: aws:instances:i-c3a5c2ed:tags:type
+    :type: string
+    :value: web-server
+  - :name: aws:instances:i-03063d2d:tags:Name
+    :type: string
+    :value: queue-01
+  - :name: aws:instances:i-b3eb8b9d:tags:Name
+    :type: string
+    :value: db-02
+  - :name: aws:instances:i-e62852c8:tags
+    :type: set
+    :value:
+    - type
+    - Name
+  - :name: aws:instances:i-c35a06ed:block_devices:/dev/xvda
+    :type: hash
+    :value:
+      :device_name: "/dev/xvda"
+      :type: ebs
+      :volume_id: vol-b5a037c3
+      :status: attached
+      :attach_time: 2014-02-20 18:50:38 UTC
+      :delete_on_termination: 'false'
+  - :name: aws:instances:i-01fe9f2f:block_devices:/dev/sda1
+    :type: hash
+    :value:
+      :device_name: "/dev/sda1"
+      :type: ebs
+      :volume_id: vol-dc4ee5aa
+      :status: attached
+      :attach_time: 2014-02-05 13:35:03 UTC
+      :delete_on_termination: 'true'
+  - :name: aws:instances:i-ff5a06d1:tags
+    :type: set
+    :value:
+    - type
+    - Name
+  - :name: aws:instances:i-e4c3a2ca:block_devices:/dev/sdf
+    :type: hash
+    :value:
+      :device_name: "/dev/sdf"
+      :type: ebs
+      :volume_id: vol-c0e0b0b6
+      :status: attached
+      :attach_time: 2014-03-25 22:57:13 UTC
+      :delete_on_termination: 'false'
+  - :name: aws:instances:i-01fe9f2f:tags:type
+    :type: string
+    :value: db-server
+  - :name: aws:instances:i-4bc6a765:tags:Name
+    :type: string
+    :value: cache-01
+  - :name: aws:instances:i-3b760a15:tags:Name
+    :type: string
+    :value: web-03
+  - :name: aws:instances:i-fe5a06d0:tags:type
+    :type: string
+    :value: development-server
+  - :name: aws:instances:i-b3eb8b9d:tags:type
+    :type: string
+    :value: db-server
+  - :name: aws:instances:i-01fe9f2f:block_devices
+    :type: set
+    :value:
+    - "/dev/sda1"
+  - :name: aws:instances:i-3a760a14:block_devices:/dev/sdf
+    :type: hash
+    :value:
+      :device_name: "/dev/sdf"
+      :type: ebs
+      :volume_id: vol-7b11610d
+      :status: attached
+      :attach_time: 2014-03-11 20:05:57 UTC
+      :delete_on_termination: 'false'
+  - :name: aws:instances:i-3a760a14:tags
+    :type: set
+    :value:
+    - type
+    - Name
+  - :name: aws:instances:i-fe5a06d0:tags:Name
+    :type: string
+    :value: dev-01
+  - :name: aws:instances:i-3a760a14:block_devices
+    :type: set
+    :value:
+    - "/dev/sdf"
+    - "/dev/sda1"
+  - :name: aws:instances:i-34760a1a:tags:type
+    :type: string
+    :value: web-server
+  - :name: aws:instances:i-e62852c8:block_devices
+    :type: set
+    :value:
+    - "/dev/xvda"
+  - :name: aws:instances:i-3a760a14:tags:type
+    :type: string
+    :value: web-server
+  - :name: aws:instances:i-b0eb8b9e:block_devices:/dev/sda1
+    :type: hash
+    :value:
+      :device_name: "/dev/sda1"
+      :type: ebs
+      :volume_id: vol-e99f359f
+      :status: attached
+      :attach_time: 2014-02-05 20:06:15 UTC
+      :delete_on_termination: 'true'
+  - :name: aws:instances:i-80bcac89:block_devices:/dev/xvda
+    :type: hash
+    :value:
+      :device_name: "/dev/xvda"
+      :type: ebs
+      :volume_id: vol-89b7a08b
+      :status: attached
+      :attach_time: 2014-03-05 22:03:47 UTC
+      :delete_on_termination: 'true'
+  - :name: aws:instances:i-24ebd40a:tags:Name
+    :type: string
+    :value: aspera-01
+  - :name: aws:instances:i-fe5a06d0:block_devices:/dev/sdf
+    :type: hash
+    :value:
+      :device_name: "/dev/sdf"
+      :type: ebs
+      :volume_id: vol-b62d7ac0
+      :status: attached
+      :attach_time: 2014-03-24 17:17:54 UTC
+      :delete_on_termination: 'false'
+  - :name: aws:instances:i-fe5a06d0
+    :type: hash
+    :value:
+      :ami_launch_index: '0'
+      :api_termination_disabled: 'false'
+      :architecture: x86_64
+      :availability_zone: us-east-1d
+      :client_token: LnaIp1392918442146
+      :dns_name: ec2-54-84-237-146.compute-1.amazonaws.com
+      :ebs_optimized: 'false'
+      :hypervisor: xen
+      :iam_instance_profile_arn: ''
+      :iam_instance_profile_id: ''
+      :id: i-fe5a06d0
+      :image_id: ami-c1f1f4a8
+      :instance_initiated_shutdown_behavior: stop
+      :instance_type: c3.large
+      :ip_address: 54.84.237.146
+      :kernel_id: ''
+      :key_name: youtoo_us-east
+      :launch_time: 2014-02-20 18:51:33 UTC
+      :monitoring: disabled
+      :name: dev-01
+      :owner_id: '786943564112'
+      :platform: ''
+      :private_dns_name: ip-172-31-23-51.ec2.internal
+      :private_ip_address: 172.31.23.51
+      :ramdisk_id: ''
+      :requester_id: ''
+      :reservation_id: r-4842da66
+      :root_device_name: "/dev/xvda"
+      :root_device_type: ebs
+      :source_dest_check: 'true'
+      :state_transition_reason: ''
+      :status: running
+      :status_code: '16'
+      :subnet_id: subnet-908b8de4
+      :user_data: ''
+      :virtualization_type: hvm
+      :vpc?: 'true'
+      :vpc_id: vpc-196e827c
+      :tag:Name: dev-01
+      :tag:type: development-server
+  - :name: aws:instances:i-9b106eb5:block_devices
+    :type: set
+    :value:
+    - "/dev/sdf"
+    - "/dev/xvda"
+  - :name: aws:instances:i-03063d2d
+    :type: hash
+    :value:
+      :ami_launch_index: '0'
+      :api_termination_disabled: 'true'
+      :architecture: x86_64
+      :availability_zone: us-east-1d
+      :client_token: cYDYZ1394151575984
+      :dns_name: ec2-54-85-73-4.compute-1.amazonaws.com
+      :ebs_optimized: 'false'
+      :hypervisor: xen
+      :iam_instance_profile_arn: ''
+      :iam_instance_profile_id: ''
+      :id: i-03063d2d
+      :image_id: ami-c1f1f4a8
+      :instance_initiated_shutdown_behavior: stop
+      :instance_type: c3.xlarge
+      :ip_address: 54.85.73.4
+      :kernel_id: ''
+      :key_name: youtoo_us-east
+      :launch_time: 2014-03-07 00:19:37 UTC
+      :monitoring: enabled
+      :name: queue-01
+      :owner_id: '786943564112'
+      :platform: ''
+      :private_dns_name: ip-172-31-31-170.ec2.internal
+      :private_ip_address: 172.31.31.170
+      :ramdisk_id: ''
+      :requester_id: ''
+      :reservation_id: r-013a462f
+      :root_device_name: "/dev/xvda"
+      :root_device_type: ebs
+      :source_dest_check: 'true'
+      :state_transition_reason: ''
+      :status: running
+      :status_code: '16'
+      :subnet_id: subnet-908b8de4
+      :user_data: ''
+      :virtualization_type: hvm
+      :vpc?: 'true'
+      :vpc_id: vpc-196e827c
+      :tag:Name: queue-01
+      :tag:type: queue / master
+  - :name: aws:instances:i-c3a5c2ed:block_devices:/dev/sda1
+    :type: hash
+    :value:
+      :device_name: "/dev/sda1"
+      :type: ebs
+      :volume_id: vol-fe5bf288
+      :status: attached
+      :attach_time: 2014-02-04 21:31:02 UTC
+      :delete_on_termination: 'true'
+  - :name: aws:instances:i-e62852c8
+    :type: hash
+    :value:
+      :ami_launch_index: '0'
+      :api_termination_disabled: 'true'
+      :architecture: x86_64
+      :availability_zone: us-east-1d
+      :client_token: ALywZ1392328497345
+      :dns_name: ec2-54-84-189-252.compute-1.amazonaws.com
+      :ebs_optimized: 'false'
+      :hypervisor: xen
+      :iam_instance_profile_arn: ''
+      :iam_instance_profile_id: ''
+      :id: i-e62852c8
+      :image_id: ami-59707430
+      :instance_initiated_shutdown_behavior: stop
+      :instance_type: c3.8xlarge
+      :ip_address: 54.84.189.252
+      :kernel_id: ''
+      :key_name: youtoo_us-east
+      :launch_time: 2014-02-13 21:54:58 UTC
+      :monitoring: enabled
+      :name: lb-04
+      :owner_id: '786943564112'
+      :platform: ''
+      :private_dns_name: ip-172-31-22-150.ec2.internal
+      :private_ip_address: 172.31.22.150
+      :ramdisk_id: ''
+      :requester_id: ''
+      :reservation_id: r-c6e26ce8
+      :root_device_name: "/dev/xvda"
+      :root_device_type: ebs
+      :source_dest_check: 'true'
+      :state_transition_reason: ''
+      :status: running
+      :status_code: '16'
+      :subnet_id: subnet-908b8de4
+      :user_data: ''
+      :virtualization_type: hvm
+      :vpc?: 'true'
+      :vpc_id: vpc-196e827c
+      :tag:type: load-balancing-server
+      :tag:Name: lb-04
+  - :name: aws:instances:i-03063d2d:block_devices
+    :type: set
+    :value:
+    - "/dev/xvda"
+  - :name: aws:instances:i-07cbaa29:block_devices:/dev/sda1
+    :type: hash
+    :value:
+      :device_name: "/dev/sda1"
+      :type: ebs
+      :volume_id: vol-5143e827
+      :status: attached
+      :attach_time: 2014-02-05 13:40:29 UTC
+      :delete_on_termination: 'true'
+  - :name: aws:instances:i-e4c3a2ca:block_devices:/dev/sda1
+    :type: hash
+    :value:
+      :device_name: "/dev/sda1"
+      :type: ebs
+      :volume_id: vol-6d42e91b
+      :status: attached
+      :attach_time: 2014-02-05 13:43:25 UTC
+      :delete_on_termination: 'true'
+  - :name: aws:instances:i-c35a06ed
+    :type: hash
+    :value:
+      :ami_launch_index: '2'
+      :api_termination_disabled: 'false'
+      :architecture: x86_64
+      :availability_zone: us-east-1d
+      :client_token: LnaIp1392918442146
+      :dns_name: ec2-54-84-237-150.compute-1.amazonaws.com
+      :ebs_optimized: 'false'
+      :hypervisor: xen
+      :iam_instance_profile_arn: ''
+      :iam_instance_profile_id: ''
+      :id: i-c35a06ed
+      :image_id: ami-c1f1f4a8
+      :instance_initiated_shutdown_behavior: stop
+      :instance_type: c3.large
+      :ip_address: 54.84.237.150
+      :kernel_id: ''
+      :key_name: youtoo_us-east
+      :launch_time: 2014-02-20 18:51:33 UTC
+      :monitoring: disabled
+      :name: db-04
+      :owner_id: '786943564112'
+      :platform: ''
+      :private_dns_name: ip-172-31-23-50.ec2.internal
+      :private_ip_address: 172.31.23.50
+      :ramdisk_id: ''
+      :requester_id: ''
+      :reservation_id: r-4842da66
+      :root_device_name: "/dev/xvda"
+      :root_device_type: ebs
+      :source_dest_check: 'true'
+      :state_transition_reason: ''
+      :status: running
+      :status_code: '16'
+      :subnet_id: subnet-908b8de4
+      :user_data: ''
+      :virtualization_type: hvm
+      :vpc?: 'true'
+      :vpc_id: vpc-196e827c
+      :tag:type: development-server
+      :tag:Name: db-04
+  - :name: aws:instances:i-80bcac89:tags
+    :type: set
+    :value:
+    - type
+    - Name
+  - :name: aws:instances:i-e62852c8:tags:Name
+    :type: string
+    :value: lb-04
+  - :name: aws:instances:i-34760a1a:tags
+    :type: set
+    :value:
+    - type
+    - Name
+  - :name: aws:instances:i-3cfbc012:block_devices:/dev/xvda
+    :type: hash
+    :value:
+      :device_name: "/dev/xvda"
+      :type: ebs
+      :volume_id: vol-4b7e173d
+      :status: attached
+      :attach_time: 2014-03-07 00:24:03 UTC
+      :delete_on_termination: 'true'
+  - :name: aws:instances:i-34760a1a:block_devices:/dev/sdf
+    :type: hash
+    :value:
+      :device_name: "/dev/sdf"
+      :type: ebs
+      :volume_id: vol-b61060c0
+      :status: attached
+      :attach_time: 2014-03-11 20:06:17 UTC
+      :delete_on_termination: 'false'
+  - :name: aws:instances:i-b0eb8b9e:tags:Name
+    :type: string
+    :value: db-03
+  - :name: aws:instances:i-07cbaa29:tags:type
+    :type: string
+    :value: load-balancing-server
+  - :name: aws:instances:i-9b106eb5:block_devices:/dev/sdf
+    :type: hash
+    :value:
+      :device_name: "/dev/sdf"
+      :type: ebs
+      :volume_id: vol-e47ec592
+      :status: attached
+      :attach_time: 2014-02-12 21:03:59 UTC
+      :delete_on_termination: 'false'
+  - :name: aws:instances:i-07cbaa29
+    :type: hash
+    :value:
+      :ami_launch_index: '0'
+      :api_termination_disabled: 'true'
+      :architecture: x86_64
+      :availability_zone: us-east-1d
+      :client_token: uKogA1391607624065
+      :dns_name: ec2-54-84-74-198.compute-1.amazonaws.com
+      :ebs_optimized: 'false'
+      :hypervisor: xen
+      :iam_instance_profile_arn: ''
+      :iam_instance_profile_id: ''
+      :id: i-07cbaa29
+      :image_id: ami-bba18dd2
+      :instance_initiated_shutdown_behavior: stop
+      :instance_type: c3.2xlarge
+      :ip_address: 54.84.74.198
+      :kernel_id: aki-919dcaf8
+      :key_name: youtoo_us-east
+      :launch_time: 2014-02-05 13:40:25 UTC
+      :monitoring: disabled
+      :name: lb-01
+      :owner_id: '786943564112'
+      :platform: ''
+      :private_dns_name: ip-172-31-30-19.ec2.internal
+      :private_ip_address: 172.31.30.19
+      :ramdisk_id: ''
+      :requester_id: ''
+      :reservation_id: r-1151ec3f
+      :root_device_name: "/dev/sda1"
+      :root_device_type: ebs
+      :source_dest_check: 'true'
+      :state_transition_reason: ''
+      :status: running
+      :status_code: '16'
+      :subnet_id: subnet-908b8de4
+      :user_data: ''
+      :virtualization_type: paravirtual
+      :vpc?: 'true'
+      :vpc_id: vpc-196e827c
+      :tag:type: load-balancing-server
+      :tag:Name: lb-01
+  - :name: aws:instances:i-01fe9f2f:tags
+    :type: set
+    :value:
+    - type
+    - Name
+  - :name: aws:instances:i-c3a5c2ed:block_devices:/dev/sdf
+    :type: hash
+    :value:
+      :device_name: "/dev/sdf"
+      :type: ebs
+      :volume_id: vol-c71060b1
+      :status: attached
+      :attach_time: 2014-03-11 20:05:42 UTC
+      :delete_on_termination: 'false'
+  - :name: aws:instances:i-b3eb8b9d:block_devices
+    :type: set
+    :value:
+    - "/dev/sda1"
+  - :name: aws:instances:i-ff5a06d1
+    :type: hash
+    :value:
+      :ami_launch_index: '1'
+      :api_termination_disabled: 'false'
+      :architecture: x86_64
+      :availability_zone: us-east-1d
+      :client_token: LnaIp1392918442146
+      :dns_name: ec2-54-84-219-215.compute-1.amazonaws.com
+      :ebs_optimized: 'false'
+      :hypervisor: xen
+      :iam_instance_profile_arn: ''
+      :iam_instance_profile_id: ''
+      :id: i-ff5a06d1
+      :image_id: ami-c1f1f4a8
+      :instance_initiated_shutdown_behavior: stop
+      :instance_type: c3.large
+      :ip_address: 54.84.219.215
+      :kernel_id: ''
+      :key_name: youtoo_us-east
+      :launch_time: 2014-02-20 18:51:33 UTC
+      :monitoring: disabled
+      :name: staging-01
+      :owner_id: '786943564112'
+      :platform: ''
+      :private_dns_name: ip-172-31-23-52.ec2.internal
+      :private_ip_address: 172.31.23.52
+      :ramdisk_id: ''
+      :requester_id: ''
+      :reservation_id: r-4842da66
+      :root_device_name: "/dev/xvda"
+      :root_device_type: ebs
+      :source_dest_check: 'true'
+      :state_transition_reason: ''
+      :status: running
+      :status_code: '16'
+      :subnet_id: subnet-908b8de4
+      :user_data: ''
+      :virtualization_type: hvm
+      :vpc?: 'true'
+      :vpc_id: vpc-196e827c
+      :tag:Name: staging-01
+      :tag:type: development-server
+  - :name: aws:instances:i-3a760a14:block_devices:/dev/sda1
+    :type: hash
+    :value:
+      :device_name: "/dev/sda1"
+      :type: ebs
+      :volume_id: vol-620db414
+      :status: attached
+      :attach_time: 2014-02-12 05:28:13 UTC
+      :delete_on_termination: 'true'
+  - :name: aws:instances:i-24ebd40a:tags:type
+    :type: string
+    :value: transfer
+  - :name: aws:instances:i-07cbaa29:block_devices
+    :type: set
+    :value:
+    - "/dev/sda1"
+  - :name: aws:instances:i-9b106eb5:tags:type
+    :type: string
+    :value: generic
+  - :name: aws:instances:i-ff5a06d1:tags:type
+    :type: string
+    :value: development-server
+  - :name: aws:instances:i-4bc6a765:block_devices
+    :type: set
+    :value:
+    - "/dev/sda1"
+  - :name: aws:instances:i-24ebd40a:block_devices:/dev/sda1
+    :type: hash
+    :value:
+      :device_name: "/dev/sda1"
+      :type: ebs
+      :volume_id: vol-e1563a97
+      :status: attached
+      :attach_time: 2014-03-05 17:15:17 UTC
+      :delete_on_termination: 'true'
+  - :name: aws:instances:i-07cbaa29:tags:Name
+    :type: string
+    :value: lb-01
+  - :name: aws:instances:i-e4c3a2ca
+    :type: hash
+    :value:
+      :ami_launch_index: '0'
+      :api_termination_disabled: 'true'
+      :architecture: x86_64
+      :availability_zone: us-east-1d
+      :client_token: xwKrP1391607801746
+      :dns_name: ec2-54-84-73-13.compute-1.amazonaws.com
+      :ebs_optimized: 'false'
+      :hypervisor: xen
+      :iam_instance_profile_arn: ''
+      :iam_instance_profile_id: ''
+      :id: i-e4c3a2ca
+      :image_id: ami-bba18dd2
+      :instance_initiated_shutdown_behavior: stop
+      :instance_type: c3.2xlarge
+      :ip_address: 54.84.73.13
+      :kernel_id: aki-919dcaf8
+      :key_name: youtoo_us-east
+      :launch_time: 2014-02-05 13:43:22 UTC
+      :monitoring: disabled
+      :name: tools-01
+      :owner_id: '786943564112'
+      :platform: ''
+      :private_dns_name: ip-172-31-21-95.ec2.internal
+      :private_ip_address: 172.31.21.95
+      :ramdisk_id: ''
+      :requester_id: ''
+      :reservation_id: r-2d5be603
+      :root_device_name: "/dev/sda1"
+      :root_device_type: ebs
+      :source_dest_check: 'true'
+      :state_transition_reason: ''
+      :status: running
+      :status_code: '16'
+      :subnet_id: subnet-908b8de4
+      :user_data: ''
+      :virtualization_type: paravirtual
+      :vpc?: 'true'
+      :vpc_id: vpc-196e827c
+      :tag:type: team-server
+      :tag:Name: tools-01
+  - :name: aws:instances:i-3a760a14
+    :type: hash
+    :value:
+      :ami_launch_index: '2'
+      :api_termination_disabled: 'false'
+      :architecture: x86_64
+      :availability_zone: us-east-1d
+      :client_token: XofhP1392182887675
+      :dns_name: ec2-54-85-34-43.compute-1.amazonaws.com
+      :ebs_optimized: 'false'
+      :hypervisor: xen
+      :iam_instance_profile_arn: ''
+      :iam_instance_profile_id: ''
+      :id: i-3a760a14
+      :image_id: ami-f9373290
+      :instance_initiated_shutdown_behavior: stop
+      :instance_type: c3.2xlarge
+      :ip_address: 54.85.34.43
+      :kernel_id: aki-919dcaf8
+      :key_name: youtoo_us-east
+      :launch_time: 2014-02-12 05:28:08 UTC
+      :monitoring: disabled
+      :name: web-02
+      :owner_id: '786943564112'
+      :platform: ''
+      :private_dns_name: ip-172-31-22-31.ec2.internal
+      :private_ip_address: 172.31.22.31
+      :ramdisk_id: ''
+      :requester_id: ''
+      :reservation_id: r-bbd15395
+      :root_device_name: "/dev/sda1"
+      :root_device_type: ebs
+      :source_dest_check: 'true'
+      :state_transition_reason: ''
+      :status: running
+      :status_code: '16'
+      :subnet_id: subnet-908b8de4
+      :user_data: ''
+      :virtualization_type: paravirtual
+      :vpc?: 'true'
+      :vpc_id: vpc-196e827c
+      :tag:Name: web-02
+      :tag:type: web-server
+  - :name: aws:instances:i-07cbaa29:tags
+    :type: set
+    :value:
+    - type
+    - Name
+  - :name: aws:instances:i-b0eb8b9e:tags
+    :type: set
+    :value:
+    - type
+    - Name
+  - :name: aws:instances:i-c35a06ed:tags:Name
+    :type: string
+    :value: db-04
+  - :name: aws:instances:i-fe5a06d0:block_devices
+    :type: set
+    :value:
+    - "/dev/sdf"
+    - "/dev/xvda"
+  - :name: aws:instances:i-c3a5c2ed:tags:Name
+    :type: string
+    :value: web-01
+  - :name: aws:instances:i-b0eb8b9e:block_devices
+    :type: set
+    :value:
+    - "/dev/sda1"
+  - :name: aws:instances:i-b3eb8b9d:tags
+    :type: set
+    :value:
+    - type
+    - Name
+  - :name: aws:instances:i-ff5a06d1:block_devices:/dev/xvda
+    :type: hash
+    :value:
+      :device_name: "/dev/xvda"
+      :type: ebs
+      :volume_id: vol-e1a03797
+      :status: attached
+      :attach_time: 2014-02-20 18:50:57 UTC
+      :delete_on_termination: 'false'
+  - :name: aws:instances:i-9b106eb5:block_devices:/dev/xvda
+    :type: hash
+    :value:
+      :device_name: "/dev/xvda"
+      :type: ebs
+      :volume_id: vol-32bf0444
+      :status: attached
+      :attach_time: 2014-02-12 18:39:10 UTC
+      :delete_on_termination: 'true'
+  - :name: aws:instances:i-34760a1a:block_devices
+    :type: set
+    :value:
+    - "/dev/sdf"
+    - "/dev/sda1"
+  - :name: aws:instances:i-b3eb8b9d
+    :type: hash
+    :value:
+      :ami_launch_index: '0'
+      :api_termination_disabled: 'false'
+      :architecture: x86_64
+      :availability_zone: us-east-1d
+      :client_token: lUKVK1391630770018
+      :dns_name: ec2-54-84-87-176.compute-1.amazonaws.com
+      :ebs_optimized: 'false'
+      :hypervisor: xen
+      :iam_instance_profile_arn: ''
+      :iam_instance_profile_id: ''
+      :id: i-b3eb8b9d
+      :image_id: ami-9d81b9f4
+      :instance_initiated_shutdown_behavior: stop
+      :instance_type: c3.2xlarge
+      :ip_address: 54.84.87.176
+      :kernel_id: aki-919dcaf8
+      :key_name: youtoo_us-east
+      :launch_time: 2014-02-05 20:06:10 UTC
+      :monitoring: disabled
+      :name: db-02
+      :owner_id: '786943564112'
+      :platform: ''
+      :private_dns_name: ip-172-31-27-104.ec2.internal
+      :private_ip_address: 172.31.27.104
+      :ramdisk_id: ''
+      :requester_id: ''
+      :reservation_id: r-8bb509a5
+      :root_device_name: "/dev/sda1"
+      :root_device_type: ebs
+      :source_dest_check: 'true'
+      :state_transition_reason: ''
+      :status: running
+      :status_code: '16'
+      :subnet_id: subnet-908b8de4
+      :user_data: ''
+      :virtualization_type: paravirtual
+      :vpc?: 'true'
+      :vpc_id: vpc-196e827c
+      :tag:Name: db-02
+      :tag:type: db-server
+  - :name: aws:instances:i-3b760a15:block_devices
+    :type: set
+    :value:
+    - "/dev/sdf"
+    - "/dev/sda1"
+  - :name: aws:instances:i-3b760a15:block_devices:/dev/sdf
+    :type: hash
+    :value:
+      :device_name: "/dev/sdf"
+      :type: ebs
+      :volume_id: vol-0a10607c
+      :status: attached
+      :attach_time: 2014-03-11 20:06:07 UTC
+      :delete_on_termination: 'false'
+  - :name: aws:instances:i-c35a06ed:tags:type
+    :type: string
+    :value: development-server
+  - :name: aws:instances:i-24ebd40a
+    :type: hash
+    :value:
+      :ami_launch_index: '0'
+      :api_termination_disabled: 'true'
+      :architecture: x86_64
+      :availability_zone: us-east-1d
+      :client_token: fLyDO1394039713842
+      :dns_name: ec2-54-85-41-170.compute-1.amazonaws.com
+      :ebs_optimized: 'false'
+      :hypervisor: xen
+      :iam_instance_profile_arn: ''
+      :iam_instance_profile_id: ''
+      :id: i-24ebd40a
+      :image_id: ami-db3416b2
+      :instance_initiated_shutdown_behavior: stop
+      :instance_type: m1.large
+      :ip_address: 54.85.41.170
+      :kernel_id: aki-88aa75e1
+      :key_name: youtoo_us-east
+      :launch_time: 2014-03-05 17:15:14 UTC
+      :monitoring: enabled
+      :name: aspera-01
+      :owner_id: '786943564112'
+      :platform: ''
+      :private_dns_name: ip-172-31-30-3.ec2.internal
+      :private_ip_address: 172.31.30.3
+      :ramdisk_id: ''
+      :requester_id: ''
+      :reservation_id: r-c51566eb
+      :root_device_name: "/dev/sda1"
+      :root_device_type: ebs
+      :source_dest_check: 'true'
+      :state_transition_reason: ''
+      :status: running
+      :status_code: '16'
+      :subnet_id: subnet-908b8de4
+      :user_data: ''
+      :virtualization_type: paravirtual
+      :vpc?: 'true'
+      :vpc_id: vpc-196e827c
+      :elastic_ip: 54.85.41.170
+      :tag:Name: aspera-01
+      :tag:type: transfer
+  - :name: aws:instances:i-3b760a15:block_devices:/dev/sda1
+    :type: hash
+    :value:
+      :device_name: "/dev/sda1"
+      :type: ebs
+      :volume_id: vol-b70ab3c1
+      :status: attached
+      :attach_time: 2014-02-12 05:28:12 UTC
+      :delete_on_termination: 'true'
+  - :name: aws:instances:i-80bcac89:block_devices
+    :type: set
+    :value:
+    - "/dev/sdd"
+    - "/dev/xvda"
+  - :name: aws:instances:i-9b106eb5:tags
+    :type: set
+    :value:
+    - type
+    - Name
+  - :name: aws:instances:i-4bc6a765:block_devices:/dev/sda1
+    :type: hash
+    :value:
+      :device_name: "/dev/sda1"
+      :type: ebs
+      :volume_id: vol-2f4ce759
+      :status: attached
+      :attach_time: 2014-02-05 13:37:44 UTC
+      :delete_on_termination: 'true'
+  - :name: aws:instances:i-b0eb8b9e:tags:type
+    :type: string
+    :value: db-server
+  - :name: aws:instances:i-e4c3a2ca:tags:Name
+    :type: string
+    :value: tools-01
+  - :name: aws:instances:i-03063d2d:tags:type
+    :type: string
+    :value: queue / master
+  - :name: aws:instances:i-3b760a15:tags:type
+    :type: string
+    :value: web-server
+  - :name: aws:instances:i-b0eb8b9e
+    :type: hash
+    :value:
+      :ami_launch_index: '1'
+      :api_termination_disabled: 'false'
+      :architecture: x86_64
+      :availability_zone: us-east-1d
+      :client_token: lUKVK1391630770018
+      :dns_name: ec2-54-84-84-163.compute-1.amazonaws.com
+      :ebs_optimized: 'false'
+      :hypervisor: xen
+      :iam_instance_profile_arn: ''
+      :iam_instance_profile_id: ''
+      :id: i-b0eb8b9e
+      :image_id: ami-9d81b9f4
+      :instance_initiated_shutdown_behavior: stop
+      :instance_type: c3.2xlarge
+      :ip_address: 54.84.84.163
+      :kernel_id: aki-919dcaf8
+      :key_name: youtoo_us-east
+      :launch_time: 2014-02-05 20:06:10 UTC
+      :monitoring: disabled
+      :name: db-03
+      :owner_id: '786943564112'
+      :platform: ''
+      :private_dns_name: ip-172-31-27-103.ec2.internal
+      :private_ip_address: 172.31.27.103
+      :ramdisk_id: ''
+      :requester_id: ''
+      :reservation_id: r-8bb509a5
+      :root_device_name: "/dev/sda1"
+      :root_device_type: ebs
+      :source_dest_check: 'true'
+      :state_transition_reason: ''
+      :status: running
+      :status_code: '16'
+      :subnet_id: subnet-908b8de4
+      :user_data: ''
+      :virtualization_type: paravirtual
+      :vpc?: 'true'
+      :vpc_id: vpc-196e827c
+      :tag:Name: db-03
+      :tag:type: db-server
+  - :name: aws:instances:i-80bcac89
+    :type: hash
+    :value:
+      :ami_launch_index: '0'
+      :api_termination_disabled: 'true'
+      :architecture: x86_64
+      :availability_zone: us-west-2a
+      :client_token: NFbCq1394057024146
+      :dns_name: ec2-54-186-40-175.us-west-2.compute.amazonaws.com
+      :ebs_optimized: 'false'
+      :hypervisor: xen
+      :iam_instance_profile_arn: ''
+      :iam_instance_profile_id: ''
+      :id: i-80bcac89
+      :image_id: ami-3c650a0c
+      :instance_initiated_shutdown_behavior: stop
+      :instance_type: c3.xlarge
+      :ip_address: 54.186.40.175
+      :kernel_id: ''
+      :key_name: youtoo_us-west.pem
+      :launch_time: 2014-03-05 22:03:44 UTC
+      :monitoring: enabled
+      :name: storage-02
+      :owner_id: '786943564112'
+      :platform: ''
+      :private_dns_name: ip-172-31-20-196.us-west-2.compute.internal
+      :private_ip_address: 172.31.20.196
+      :ramdisk_id: ''
+      :requester_id: ''
+      :reservation_id: r-d2aca7db
+      :root_device_name: "/dev/xvda"
+      :root_device_type: ebs
+      :source_dest_check: 'true'
+      :state_transition_reason: ''
+      :status: running
+      :status_code: '16'
+      :subnet_id: subnet-65434711
+      :user_data: ''
+      :virtualization_type: hvm
+      :vpc?: 'true'
+      :vpc_id: vpc-d9465fbb
+      :elastic_ip: 54.186.40.175
+      :tag:type: storage
+      :tag:Name: storage-02
+  - :name: aws:instances:i-b3eb8b9d:block_devices:/dev/sda1
+    :type: hash
+    :value:
+      :device_name: "/dev/sda1"
+      :type: ebs
+      :volume_id: vol-579c3621
+      :status: attached
+      :attach_time: 2014-02-05 20:06:15 UTC
+      :delete_on_termination: 'true'
+  - :name: aws:instances:i-24ebd40a:tags
+    :type: set
+    :value:
+    - type
+    - Name
+  - :name: aws:instances:i-3cfbc012:tags:Name
+    :type: string
+    :value: worker-01
+  - :name: aws:instances:i-3a760a14:tags:Name
+    :type: string
+    :value: web-02
+  - :name: aws:instances:i-ff5a06d1:block_devices
+    :type: set
+    :value:
+    - "/dev/xvda"
+  - :name: aws:instances:i-c3a5c2ed
+    :type: hash
+    :value:
+      :ami_launch_index: '0'
+      :api_termination_disabled: 'false'
+      :architecture: x86_64
+      :availability_zone: us-east-1d
+      :client_token: VqUpy1391549459038
+      :dns_name: ec2-54-85-63-7.compute-1.amazonaws.com
+      :ebs_optimized: 'false'
+      :hypervisor: xen
+      :iam_instance_profile_arn: ''
+      :iam_instance_profile_id: ''
+      :id: i-c3a5c2ed
+      :image_id: ami-bba18dd2
+      :instance_initiated_shutdown_behavior: stop
+      :instance_type: c3.2xlarge
+      :ip_address: 54.85.63.7
+      :kernel_id: aki-919dcaf8
+      :key_name: youtoo_us-east
+      :launch_time: 2014-02-04 21:30:59 UTC
+      :monitoring: disabled
+      :name: web-01
+      :owner_id: '786943564112'
+      :platform: ''
+      :private_dns_name: ip-172-31-19-62.ec2.internal
+      :private_ip_address: 172.31.19.62
+      :ramdisk_id: ''
+      :requester_id: ''
+      :reservation_id: r-81f547af
+      :root_device_name: "/dev/sda1"
+      :root_device_type: ebs
+      :source_dest_check: 'true'
+      :state_transition_reason: ''
+      :status: running
+      :status_code: '16'
+      :subnet_id: subnet-908b8de4
+      :user_data: ''
+      :virtualization_type: paravirtual
+      :vpc?: 'true'
+      :vpc_id: vpc-196e827c
+      :tag:type: web-server
+      :tag:Name: web-01
+  - :name: aws:instances:i-24ebd40a:block_devices
+    :type: set
+    :value:
+    - "/dev/sdd"
+    - "/dev/sda1"
+  - :name: aws:instances:i-9b106eb5:tags:Name
+    :type: string
+    :value: storage-01
